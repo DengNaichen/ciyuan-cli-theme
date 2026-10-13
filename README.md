@@ -1,6 +1,6 @@
 # 词元无限 · Codex CLI 主题
 
-蓝青色几何标志从代码碎片中聚合成形，中文标题逐字显现，最后由一道光扫过并过渡到首页。使用提供的「词元」SVG，保留六个几何面的原始形状和渐变。
+蓝青色几何标志从代码碎片中聚合成形，英文主标题 TOKENS INFINITY 逐字显现，保留中文品牌「词元无限」，最后由一道光扫过并过渡到首页。使用提供的「词元」SVG，保留六个几何面的原始形状和渐变。
 
 ![开屏动画](docs/intro.gif)
 
@@ -41,7 +41,7 @@ python3 tools/render.py gif codex docs/intro.gif 120 38
 python3 tools/render.py sheet codex docs/frames.png 120 38
 ```
 
-原始 SVG 位于 `pangu/assets/ciyuan-mark.svg`。`art.json` 保存形状、每个面的渐变和预生成中文字形，因此用户运行时不需要安装字体或 Pillow。核心 Python 包名保留 `pangu`，便于对照上游。
+原始 SVG 位于 `pangu/assets/ciyuan-mark.svg`。`art.json` 保存形状、每个面的渐变和预生成标题字形，因此用户运行时不需要安装字体或 Pillow。核心 Python 包名保留 `pangu`，便于对照上游。
 
 ## 来源与许可
 

@@ -272,8 +272,7 @@ class Lockup:
         self.word_rows = word_rows
         self.slogan_rows = slogan_rows
         if word_rows:
-            probe = Mark(20, word_rows)
-            logo_cols = int(probe.word_cols * 1.04 + 1) // 2 * 2
+            logo_cols = max(10, word_rows * 10)
             self.mark = Mark(logo_cols, word_rows)
             lr = self.mark.logo_rows
             self.gap_logo = max(1, round(lr * 0.12))
