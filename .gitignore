@@ -1,7 +1,3 @@
-__pycache__/
-*.py[cod]
-.venv/
-config.json
-error.log
-backup/
 .DS_Store
+/ciyuan-theme
+build/

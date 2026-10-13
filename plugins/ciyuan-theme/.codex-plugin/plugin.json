@@ -1,0 +1,8 @@
+{
+  "name": "ciyuan-theme",
+  "version": "0.2.0",
+  "description": "词元无限 Go 单文件主题的一次性安装向导；安装成功后移除插件。",
+  "author": {"name": "DengNaichen"},
+  "skills": "./skills/",
+  "interface": {"displayName": "词元无限 · 一次性安装", "shortDescription": "安装 Go 主题，随后清理安装 skill"}
+}

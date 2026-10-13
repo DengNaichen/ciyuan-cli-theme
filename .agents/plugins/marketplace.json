@@ -1,0 +1,10 @@
+{
+  "name": "ciyuan-theme",
+  "interface": {"displayName": "词元无限"},
+  "plugins": [{
+    "name": "ciyuan-theme",
+    "source": {"source": "local", "path": "./plugins/ciyuan-theme"},
+    "policy": {"installation": "AVAILABLE", "authentication": "ON_INSTALL"},
+    "category": "Productivity"
+  }]
+}
